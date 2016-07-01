@@ -1,0 +1,32 @@
+//////////////////todo list
+
+
+
+1)Create demo for example use.
+a.Two routes
+b.Navigation menu
+c.Components title, sub, title text, texts sections.
+d.Todo more
+
+
+
+2)Create accessibility component.
+a.Crate component's html,js, and css.
+b.Create accessibility css use for component functionality.
+c.Create config files(for lang, is responsive, more options).
+d.minify it.
+e.Todo more
+
+
+3)accessibility component functionality.
+a.color contrast button.
+b.Enlarge/shrink or fonts/zoom in button.
+c.cancel button.
+d.Sessions.
+e.Todo more
+
+
+
+//////////////insperation
+wwww.elal.com
+Todo find more
