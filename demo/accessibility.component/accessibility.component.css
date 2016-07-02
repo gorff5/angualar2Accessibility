@@ -1,0 +1,262 @@
+/*TODO SCSS*/
+
+
+.access-wrap-heb {
+    direction: rtl;
+    right: 0;
+}
+
+.access-wrap-eng {
+    direction: ltr;
+    left: 0;
+    border-right: 1px solid grey;
+    border-bottom-right-radius: 10px
+}
+
+.access-wrap-eng .access-title-icon-close:after {
+    float: right !important
+}
+
+.access-wrap-eng .access-title-icon-open {
+    float: right !important
+}
+
+.access-wrap {
+    z-index: 999999;
+    font-family: FbSpoiler, sans-serif;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    /*border-bottom: 1px solid grey;*/
+    background-color: #666666;
+}
+
+.access-wrap .access-title {
+    background-color: #666666;
+    font-size: 20px;
+    padding: 5px 10px 5px 8px;
+    color: white;
+    cursor: pointer;
+    z-index: 3;;
+    width:105px;
+}
+
+.access-wrap .access-title a {
+    color: white;
+}
+
+a {
+    color: white;
+}
+a:hover{
+    color:#00adee;
+}
+
+.access-wrap .access-title .access-title-icon {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease
+}
+
+.access-wrap .access-title .access-title-icon-close:after {
+    font-family: fontawesome;
+    content: '\f193';
+    float: left;
+    padding: 0 10px 0 10px
+}
+
+.access-wrap .access-title .access-title-icon-open {
+    float: left
+}
+
+.access-wrap .access-title .access-title-icon-open:after {
+    font-family: fontawesome;
+    content: '\f00d';
+    padding: 0 10px 0 10px
+}
+
+.access-wrap .access-title .access-title-icon:hover:after {
+    color: #ff8300;
+}
+
+.access-wrap .access-content {
+    right: 0;
+    display: none;
+    top: 0;
+    font-size: 25px;
+    color: white;
+    z-index: 2;
+    width: 250px
+}
+
+.access-wrap .access-content .font-size-wrap label {
+    font-family: FbSpoiler;
+    color: white;
+}
+.access-wrap .access-content .font-size-wrap label:hover {
+    color: #00adee;
+}
+
+.access-wrap .access-content .font-size-wrap .text-input-label-1 {
+    font-size: 16px;
+}
+
+.access-wrap .access-content .font-size-wrap .text-input-label-2 {
+    font-size: 18px
+}
+
+.access-wrap .access-content .font-size-wrap .text-input-label-3 {
+    font-size: 20px
+}
+
+.access-wrap .access-content .main p {
+    margin: 10px;
+    border-bottom: 1px solid #ff8300;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ff8300;
+}
+
+.access-wrap .access-content .main .access_feature {
+    padding: 0 10px 5px 10px;
+    color: #495670;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.access-wrap span:hover, .access-wrap label:hover {
+    text-decoration: underline
+}
+
+.high_contrast * {
+    color: blue !important
+}
+
+.high_contrast body {
+    -webkit-filter: invert(1) !important;
+    filter: invert(1) !important
+}
+
+.black_and_white {
+    color: black !important;
+    -webkit-filter: grayscale(100%) !important;
+    filter: grayscale(100%) !important
+}
+
+.small-font-size {
+    font-size: 100% !important;
+}
+
+.medium-font-size {
+    font-size: 120% !important;
+    line-height: 85%;
+}
+
+.large-font-size {
+    font-size: 140% !important;
+    line-height: 70%;
+}
+
+.access-tab-shortcut {
+    display: block;
+    right: 45%;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    font-family: Arial;
+    z-index: 99;
+    top: 0
+}
+
+.access-tab-shortcut a {
+    padding: 15px;
+    color: white;
+    background-color: #3b5998;
+    opacity: 0;
+    position: absolute;
+    right: 0
+}
+
+*:focus {
+    outline: 1px dotted grey;
+    text-decoration: underline;
+    opacity: 1 !important
+}
+
+
+@media (max-width: 991px) and (orientation: portrait) {
+
+    .access-wrap {
+        width:100%;
+    }
+
+    .access-wrap .access-title {
+        background-color: #fcfcfc;
+        font-size: 16px;
+        padding: 2px 10px 2px 8px;
+        color: #666666;
+        cursor: pointer;
+        z-index: 3;
+        height:20px;
+        width:100%!important;
+    }
+
+    .access-wrap .access-title a {
+        color: #666666 !important;
+    }
+
+    a {
+        color: white;
+    }
+
+    .access-wrap .access-title .access-title-icon {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease
+    }
+
+    .access-wrap .access-title .access-title-icon-close:after {
+        font-family: fontawesome;
+        content: '\f193';
+        float: right;
+        padding: 0 10px 0 10px
+    }
+
+    .access-wrap .access-title .access-title-icon-open {
+        float: left
+    }
+
+    .access-wrap .access-title .access-title-icon-open:after {
+        font-family: fontawesome;
+        content: '\f00d';
+        padding: 0 10px 0 10px
+    }
+
+
+    .access-wrap .access-content {
+        right: 0;
+        display: none;
+        top: 0;
+        font-size: 25px;
+        color: white;
+        z-index: 2;
+        width: 250px
+    }
+
+    .access-wrap .access-content .font-size-wrap label {
+        font-family: arial;
+        color: white;
+    }
+
+    .small-font-size {
+        font-size: 100% !important;
+    }
+
+    .medium-font-size {
+        font-size: 110% !important;
+    }
+
+    .large-font-size {
+        font-size: 120% !important;
+    }
+}

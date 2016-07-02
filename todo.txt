@@ -18,12 +18,17 @@ d.minify it.
 e.Todo more
 
 
-3)accessibility component functionality.
+3)Accessibility component functionality.
 a.color contrast button.
 b.Enlarge/shrink or fonts/zoom in button.
 c.cancel button.
 d.Sessions.
 e.Todo more
+
+
+4)Extra features
+*Add scss.
+*Fix zone problem( need to put full file path like in accessibility component ).
 
 
 

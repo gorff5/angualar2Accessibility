@@ -35,3 +35,13 @@ jspm_packages
 .node_repl_history
 
 # Created by .ignore support plugin (hsz.mobi)
+.idea/.name
+.idea/angualar2Accessibility.iml
+.idea/copyright/
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/typescript-compiler.xml
+.idea/vcs.xml
+.idea/workspace.xml
+typings/

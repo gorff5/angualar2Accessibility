@@ -1,0 +1,65 @@
+
+<!--Access menu-->
+<div class="access-wrap">
+
+    <!--Component Title-->
+    <div class="access-title">
+        <a id="title-txt"></a>
+        <!--Accessility icon needed? require font awsesome-->
+        <a class="access-title-icon access-title-icon-close"></a>
+    </div>
+
+
+    <!--Plugin Content-->
+    <div class="access-content">
+
+        <div class="main">
+
+            <div class="font-size-wrap">
+
+                <p id="font-size-title"></p>
+
+                <!--Font size control-->
+                <div class="access_feature">
+                    <input  type="radio" value="1" onclick="setSiteSize(this.value);" id="fontSize1"
+                            name="fontSize" checked=""><label for="fontSize1" class="text-input-label-1"></label>
+                    <input  type="radio" value="2" onclick="setSiteSize(this.value);" id="fontSize2"
+                            name="fontSize"><label for="fontSize2" class="text-input-label-2"></label>
+                    <input  type="radio" value="3" onclick="setSiteSize(this.value);" id="fontSize3"
+                            name="fontSize"><label for="fontSize3" class="text-input-label-3"></label>
+                </div>
+
+            </div>
+
+            <!--Color contrast-->
+            <div class="site-color-profile-wrap">
+                <p id="color-contrast-title"></p>
+                <div class="access_feature active" data-item="contrast" id="normal_contrast"><a tabindex="0"></a></div>
+                <div class="access_feature" data-item="contrast" id="high_contrast"><a tabindex="0"></a></div>
+                <div class="access_feature" data-item="contrast" id="black_n_white"><a tabindex="0"></a></div>
+            </div>
+
+            <!--Cancel animation-->
+            <div class="blinking-element-wrap">
+                <p  id="blinking-elements-title"></p>
+                <div class="access_feature active" data-item="elements" id="turned_on"><a></a></div>
+                <div class="access_feature" data-item="elements" id="turned_off"><a></a></div>
+            </div>
+
+
+            <div class="blinking-element-wrap">
+                <p  id=""></p>
+                <div class="access_feature active" data-item="elements" id="returnToDefault" style="padding-bottom: 10px"><a>כבה נגישות</a></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!--Init done in accessPluginJs-->
+<div role="navigation" class="access-tab-shortcut">
+</div>
+
+
+
